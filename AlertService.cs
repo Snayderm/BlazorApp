@@ -3,6 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace BlazorApp1
 {
+
 	public class AlertService : IAsyncDisposable, IAlertService
 	{
 		readonly Lazy<Task<IJSObjectReference>> ijsObjectReference;
